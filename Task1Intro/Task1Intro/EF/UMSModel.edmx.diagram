@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8d3f3034a95b4296855d23fce50f55d7" Name="Diagram1">
+        <EntityTypeShape EntityType="Task1Model1.Catagory" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Task1Model1.Customer" Width="1.5" PointX="0.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Task1Model1.OrderProduct" Width="1.5" PointX="5.25" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Task1Model1.Order" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Task1Model1.Product" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <AssociationConnector Association="Task1Model1.FK_Catagories_Catagories" ManuallyRouted="false" />
+        <AssociationConnector Association="Task1Model1.FK_Products_Catagories" ManuallyRouted="false" />
+        <AssociationConnector Association="Task1Model1.FK_Orders_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="Task1Model1.FK_OrderProducts_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="Task1Model1.FK_OrderProducts_Products" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
